@@ -109,7 +109,21 @@ body {
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
 }
+.contatos{
+  { color: #ffffff ;
+    font-family: var(--ff-roboto)
+}
 
+div{
+    text-align: justify;
+    
+}
+img{
+    height: 3px;
+    width: 10px;
+    
+}
+}
 /* Navbar */
 .navbar {
   position: fixed;

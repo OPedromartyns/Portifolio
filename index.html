@@ -98,7 +98,7 @@
           </h1>
           <!-- Navbar links -->
           <ul class="nav-menu">
-            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li><a class="nav-link" href="#projects">PROJETOS</a></li>
             <li><a class="nav-link" href="#">CONTACT</a></li>
             <li><a class="nav-link" href="#">BlOG</a></li>
             <li>
@@ -144,7 +144,7 @@
         </div>
         <a
           href="https://github.com/CommunityPro/portfolio-html"
-          class="btn btn-secondary"
+          class="nav-link btn btn-primary"
           target="_blank"
           id="Contatos"
           >CONECTE-SE COMIGO</a
@@ -252,10 +252,75 @@
         </div>
       </article>
 
-      <a href="https://github.com/OPedromartyns" class="btn btn-secondary"
+      <a href="https://github.com/OPedromartyns"class="nav-link btn btn-primary"
         target="_blank" >Ver mais <i class="fas fa-arrow-right"></i
       ></a>
     </section>
+    <form action="https://formsubmit.co/8c9ddfb342960db84a8177faf3421c9e" method="POST" class="contact-form">
+
+      <div class="form-wrapper">
+
+        <label for="name" class="form-label">Nome</label>
+
+        <div class="input-wrapper">
+
+          <input type="text" name="name" id="name" required placeholder="Seu nome" class="input-field">
+
+          <ion-icon name="person-circle"></ion-icon>
+
+        </div>
+
+      </div>
+
+      <div class="form-wrapper">
+
+        <label for="email" class="form-label">Email</label>
+
+        <div class="input-wrapper">
+
+          <input type="email" name="email" id="email" required placeholder=" Seu email"
+            class="input-field">
+
+          <ion-icon name="mail"></ion-icon>
+
+        </div>
+
+      </div>
+
+      <div class="form-wrapper">
+
+        <label for="phone" class="form-label">Celular</label>
+
+        <div class="input-wrapper">
+
+          <input type="tel" name="phone" id="phone" required placeholder="Numero de Telefone" class="input-field">
+
+          <ion-icon name="call"></ion-icon>
+
+        </div>
+
+      </div>
+
+      <div class="form-wrapper">
+
+        <label for="message" class="form-label">Mensagem</label>
+
+        <div class="input-wrapper">
+
+          <textarea name="message" id="message" required placeholder="Escrever mensagem..."
+            class="input-field"></textarea>
+
+          <ion-icon name="chatbubbles"></ion-icon>
+
+        </div>
+
+      </div>
+
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    
+
+    </form>
 
     <footer id="footer">
       <div class="container">

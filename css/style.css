@@ -43,6 +43,44 @@
   --shadow: 0 2px 10px rgba(95, 95, 95, 0.2);
 }
 
+.contact-form {
+  background-color: black;
+  padding: 20px;
+  border-radius: var(--radius-12);
+  box-shadow: var(--shadow-1);
+}
+
+.form-wrapper { margin-bottom: 25px; }
+
+.form-label {
+  color:#7eff85 ;
+  font-size: var(--fs-7);
+  font-family: ;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+.input-wrapper { position: relative; }
+
+.input-field {
+  background: var(--input-bg);
+  color: var(--raw-seinna);
+  padding: 10px;
+  padding-left: 40px;
+  border-radius: 20px;
+  transition: var(--transition-1);
+}
+
+.input-wrapper ion-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: var(--color-secondary);
+  font-size: 200px;
+  transition: var(--transition-1);
+}
+
+
 html {
   font-size: 100%;
   scroll-behavior: smooth;
@@ -213,7 +251,7 @@ body {
 
 /* Footer */
 #footer {
-  background: #111111;
+  background: #4caf51;
 }
 
 #footer .container {

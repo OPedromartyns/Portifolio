@@ -4,7 +4,10 @@
    * Background color styling
    * padding and margin
 */
-
+.contatos{
+  text-align: center;
+  display: inline-block;
+}
 .container {
   max-width: var(--width-medium);
   margin: 0 auto;

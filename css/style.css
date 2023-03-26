@@ -248,7 +248,10 @@ body {
   top: 160px;
   left: 10px;
 }
-
+.contatos{
+  text-align: center;
+  display: inline-block;
+}
 /* Footer */
 #footer {
   background: #4caf51;

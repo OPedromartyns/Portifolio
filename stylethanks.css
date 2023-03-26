@@ -1,15 +1,22 @@
 body{
-    background-color: #1f1f1f  ;
+    background-color: #000000 ;
 }
-h1, h2, p{ color: #ffffff ;
+div{
+    display:inline-table;
+}
+h1, h2, p{ color:  #4caf51 ;
     font-family: var(--ff-roboto)
+    
+}
+p{
+    font-size: 30px;
 }
 
-div{
+.contatos{
     text-align: center;
-   
+    display: inline-block;
 }
 img{
-     height: 100px;
+     height: 150px;
  
 }
